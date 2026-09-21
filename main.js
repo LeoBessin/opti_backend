@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const crypto = require('node:crypto');
 
 const CHAR_PATH = './data/characters.txt';
-const HASHES_TO_FIND =["a532ca5e11e2b06ccc911e0d962a4864cdb87da05723f3a050a376d0f0895e63", "bd7d0ea8cf7ade4a446ba4efc46fd99071ec3f423770991ac51f70ec5a894dc7"];
+const HASHES_TO_FIND =["a532ca5e11e2b06ccc911e0d962a4864cdb87da05723f3a050a376d0f0895e63", "bd7d0ea8cf7ade4a446ba4efc46fd99071ec3f423770991ac51f70ec5a894dc7", "b53fa215e4926b59eb5cabbbe57ca5f85062fa2117e5e949d1d48767f4c60cad"];
 
 const bytes = fs.readFileSync(CHAR_PATH, 'utf8').replace(/\n/g, '').split('').map((c) => c.charCodeAt(0));
 const base = bytes.length;
