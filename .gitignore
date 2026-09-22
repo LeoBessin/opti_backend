@@ -6,3 +6,7 @@ npm-debug.log*
 # generated SQLite word table
 data/words.db
 *.db-journal
+
+# CPU profiles from profile.js
+profiles/
+*.cpuprofile
