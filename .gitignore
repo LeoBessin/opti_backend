@@ -2,3 +2,7 @@ node_modules/
 npm-debug.log*
 *.log
 .DS_Store
+
+# generated SQLite word table
+data/words.db
+*.db-journal
